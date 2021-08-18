@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    min-height: 100vh;
+}
+
+div {
+    min-height: 100vh;
+    min-width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Comic Sans MS, Lucida Handwriting, cursive;
+    background: #282c34;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+img {
+    margin-top: 1.3rem;
+    width: 50%;
+}
